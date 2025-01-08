@@ -19,8 +19,6 @@ public:
 	double org_point_x = (w()+x()-1)/2;
 	double org_point_y = (h()+y()-1)/2;
 	const double size_of_point = 3.0;
-	std::cout<<"x:"<<x()<<" y:"<<y()<<'\n';
-	std::cout<<"ox:"<<org_point_x<<" oy:"<<org_point_y<<'\n';
         fl_color(FL_WHITE); 
 	fl_rectf(x(),y(),w(),h());
         fl_color(FL_BLACK);
